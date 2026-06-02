@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "abishree.r2024cse@sece.ac.in",
   college: "Sri Eshwar College of Engineering",
   tagline: "Passionate about building impactful software solutions",
-  resumeFile: "/ABI_SHREE_RESUME_FINAL_EDIT.pdf%20(6).pdf",
+  resumeFile: "/ABI_SHREE_RESUME_FINAL_EDIT.pdf%20(5).pdf",
   photo: "/img/profile.jpeg",
 };
 
@@ -41,21 +41,20 @@ export const education = [
 
 export const internship = {
   company: "Better Tomorrow Institute",
-  role: "Full Stack Developer Intern",
   duration: "December 2025",
   description:
     "Developed a Habit Tracker web application using the MERN stack with guidance from Better Tomorrow Institute, implementing secure authentication, full CRUD operations, RESTful APIs, and MongoDB integration. Built an interactive dashboard with habit progress charts, streak tracking, reminders, consistency analysis, and deployed the application on the cloud.",
 };
 
 export const projects = [
-  {
-    title: "Smart Deadline Tracker",
-    subtitle: "Web Application",
-    tech: ["React", "NodeJS", "MongoDB"],
-    description:
-      "A task management app that helps users track deadlines, organize tasks, and improve productivity with simple and efficient features.",
-    link: "https://github.com/abishree123/smart_deadline_tracker",
-  },
+{
+  title: "Smart Deadline Tracker",
+  subtitle: "Web Application",
+  tech: ["React", "NodeJS", "MongoDB"],
+  description:
+    "A task management app that helps users track deadlines, organize tasks, and improve productivity with simple and efficient features. Implemented reminders, priority levels, and progress tracking for effective time management. Designed a responsive interface to ensure a smooth and user-friendly experience.",
+  link: "https://github.com/abishree123/smart_deadline_tracker",
+},
   {
     title: "Health Monitoring System",
     subtitle: "Python Project",
@@ -65,13 +64,13 @@ export const projects = [
     link: "https://github.com/abishree123/pythonProject",
   },
   {
-    title: "Habit Tracker",
-    subtitle: "MERN Stack",
-    tech: ["ReactJS", "NodeJS", "Express", "MongoDB"],
-    description:
-      "Developed a Habit Tracker web app with secure login and CRUD operations for managing habits. Built a dashboard with completed/pending habits, streak tracking, progress charts, and consistency analysis. Implemented a reminder module to schedule notifications and boost user habit consistency.",
-    link: "https://github.com/abishree123/Habit_Growth_Tracker_frontend",
-  },
+  title: "Eye Blink & Strain Detector",
+  subtitle: "AI/ML + Computer Vision",
+  tech: ["Python", "Flask", "OpenCV", "Dlib", "NumPy"],
+  description:
+    "Developed a real-time eye monitoring system to detect blink rate and eye strain using computer vision techniques. Implemented Eye Aspect Ratio (EAR) and PERCLOS metrics for fatigue analysis and smart suggestions. Integrated Flask backend for live webcam streaming and image-based eye state prediction.",
+  link: "https://github.com/abishree123/aiml_project",
+},
 ];
 
 export const achievements = [
