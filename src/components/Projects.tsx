@@ -37,7 +37,7 @@ export default function Projects() {
                 <h3 className="text-white font-bold text-base mb-3 leading-snug">{project.title}</h3>
                 <p className="text-slate-400 text-sm leading-relaxed flex-1 mb-5">{project.description}</p>
 
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 mb-5">
                   {project.tech.map((tech) => (
                     <span
                       key={tech}
@@ -47,6 +47,18 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto inline-flex items-center justify-center gap-2 text-cyan-300 hover:text-white border border-cyan-500/20 hover:border-cyan-400/40 px-4 py-3 rounded-2xl text-sm font-medium transition-all duration-200"
+                  >
+                    View Repo
+                    <ExternalLink size={16} />
+                  </a>
+                )}
               </div>
             );
           })}

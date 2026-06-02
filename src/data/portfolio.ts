@@ -11,6 +11,7 @@ export const personalInfo = {
 
 export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/abi-shree-r-24913b318",
+  github: "https://github.com/abishree123",
   leetcode: "https://leetcode.com/u/abi_10806/",
   codechef: "https://www.codechef.com/users/abi_shree",
   hackerrank: "https://www.hackerrank.com/profile/abishree_r2024c1",
@@ -47,19 +48,21 @@ export const internship = {
 };
 
 export const projects = [
- {
-  title: "Smart Deadline Tracker",
-  subtitle: "Web Application",
-  tech: ["React", "NodeJS", "MongoDB"],
-  description:
-    "A task management app that helps users track deadlines, organize tasks, and improve productivity with simple and efficient features."
-},
+  {
+    title: "Smart Deadline Tracker",
+    subtitle: "Web Application",
+    tech: ["React", "NodeJS", "MongoDB"],
+    description:
+      "A task management app that helps users track deadlines, organize tasks, and improve productivity with simple and efficient features.",
+    link: "https://github.com/abishree123/smart_deadline_tracker",
+  },
   {
     title: "Health Monitoring System",
     subtitle: "Python Project",
     tech: ["Python", "Django", "CSV"],
     description:
       "Developed a web-based Health Monitoring System using Python and Django to collect, validate, and store patient vitals such as heart rate, body temperature, and SpO₂. Implemented backend data processing, custom health checks, and CSV-based logging for accurate health tracking and analysis.",
+    link: "https://github.com/abishree123/pythonProject",
   },
   {
     title: "Habit Tracker",
@@ -67,6 +70,7 @@ export const projects = [
     tech: ["ReactJS", "NodeJS", "Express", "MongoDB"],
     description:
       "Developed a Habit Tracker web app with secure login and CRUD operations for managing habits. Built a dashboard with completed/pending habits, streak tracking, progress charts, and consistency analysis. Implemented a reminder module to schedule notifications and boost user habit consistency.",
+    link: "https://github.com/abishree123/Habit_Growth_Tracker_frontend",
   },
 ];
 

@@ -29,6 +29,7 @@ const contacts = [
 ];
 
 const profiles = [
+  { label: "GitHub", href: socialLinks.github },
   { label: "LeetCode", href: socialLinks.leetcode },
   { label: "HackerRank", href: socialLinks.hackerrank },
   { label: "CodeChef", href: socialLinks.codechef },
