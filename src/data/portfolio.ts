@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "abishree.r2024cse@sece.ac.in",
   college: "Sri Eshwar College of Engineering",
   tagline: "Passionate about building impactful software solutions",
-  resumeFile: "/ABI_SHREE_RESUME_FINAL_EDIT.pdf%20(5).pdf",
+  resumeFile: "/ABI_SHREE_RESUME_FINAL_EDIT.pdf",
   photo: "/img/profile.jpeg",
 };
 
@@ -39,13 +39,6 @@ export const education = [
   },
 ];
 
-export const internship = {
-  company: "Better Tomorrow Institute",
-  duration: "December 2025",
-  description:
-    "Developed a Habit Tracker web application using the MERN stack with guidance from Better Tomorrow Institute, implementing secure authentication, full CRUD operations, RESTful APIs, and MongoDB integration. Built an interactive dashboard with habit progress charts, streak tracking, reminders, consistency analysis, and deployed the application on the cloud.",
-};
-
 export const projects = [
 {
   title: "Smart Deadline Tracker",
@@ -56,20 +49,12 @@ export const projects = [
   link: "https://github.com/abishree123/smart_deadline_tracker",
 },
   {
-    title: "Health Monitoring System",
-    subtitle: "Python Project",
-    tech: ["Python", "Django", "CSV"],
-    description:
-      "Developed a web-based Health Monitoring System using Python and Django to collect, validate, and store patient vitals such as heart rate, body temperature, and SpO₂. Implemented backend data processing, custom health checks, and CSV-based logging for accurate health tracking and analysis.",
-    link: "https://github.com/abishree123/pythonProject",
-  },
-  {
-  title: "Eye Blink & Strain Detector",
-  subtitle: "AI/ML + Computer Vision",
-  tech: ["Python", "Flask", "OpenCV", "Dlib", "NumPy"],
+  title: "Habit Tracker",
+  subtitle: "Full Stack Web Application",
+  tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "REST API"],
   description:
-    "Developed a real-time eye monitoring system to detect blink rate and eye strain using computer vision techniques. Implemented Eye Aspect Ratio (EAR) and PERCLOS metrics for fatigue analysis and smart suggestions. Integrated Flask backend for live webcam streaming and image-based eye state prediction.",
-  link: "https://github.com/abishree123/aiml_project",
+    "Developed a Habit Tracker web application using the MERN stack to help users build and maintain daily habits. Implemented secure user authentication, full CRUD operations, RESTful APIs, and MongoDB database integration. Built an interactive dashboard featuring habit progress visualization, streak tracking, reminders, and consistency analysis. Deployed the application on the cloud for seamless access and scalability.",
+  link: "https://github.com/abishree123/Habit_Growth_Tracker_frontend"
 },
 ];
 
@@ -89,27 +74,11 @@ export const achievements = [
     description: "Participated at PPG Institute Of Technology",
     icon: "code",
   },
-  {
-    title: "Intrusion Hackathon – GLA University",
-    description: "Participated and Shortlisted",
-    icon: "award",
-  },
-  {
-    title: "HackerRank",
-    description: "2 stars in SQL, 2 stars in Python, 1 star in C | 3 Badges",
-    icon: "star",
-  },
-  {
-    title: "CodeChef",
-    description: "Secured Highest Rating of 758 | 1 Bronze Badge",
-    icon: "medal",
-  },
 ];
 
 export const certifications = [
   { name: "Mastering In Data Structures Using C++", issuer: "Udemy", year: "2025" },
   { name: "C Programming Hands On", issuer: "SkillRack", year: "2025" },
-  { name: "Data Structures Using C", issuer: "SkillRack", year: "2025" },
   { name: "Top DBMS Interview Questions", issuer: "CodeChef", year: "2025" },
   { name: "SQL (Basic)", issuer: "HackerRank", year: "2025" },
   { name: "Design Thinking - A Primer", issuer: "Nptel", year: "2026"},

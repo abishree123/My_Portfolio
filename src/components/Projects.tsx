@@ -17,7 +17,7 @@ export default function Projects() {
           <div className="w-12 h-0.5 bg-cyan-400 mx-auto mt-4" />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, idx) => {
             const colors = projectColors[idx % projectColors.length];
             return (
