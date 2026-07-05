@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "abishree.r2024cse@sece.ac.in",
   college: "Sri Eshwar College of Engineering",
   tagline: "Passionate about building impactful software solutions",
-  resumeFile: "/ABI_SHREE_RESUME_FINAL_EDIT.pdf",
+  resumeFile: "/ABI_SHREE_RESUME_24CS004_Updating.pdf.pdf",
   photo: "/img/profile.jpeg",
 };
 
@@ -55,6 +55,14 @@ export const projects = [
   description:
     "Developed a Habit Tracker web application using the MERN stack to help users build and maintain daily habits. Implemented secure user authentication, full CRUD operations, RESTful APIs, and MongoDB database integration. Built an interactive dashboard featuring habit progress visualization, streak tracking, reminders, and consistency analysis. Deployed the application on the cloud for seamless access and scalability.",
   link: "https://github.com/abishree123/Habit_Growth_Tracker_frontend"
+},
+{
+  title: "Smart Health Monitoring System",
+  subtitle: "Web Application",
+  tech: ["Python", "Django", "SQLite", "HTML", "CSS"],
+  description:
+    "Developed a web-based Health Monitoring System using Python and Django to collect, validate, and store patient vitals such as heart rate, body temperature, and SpO₂. Implemented backend data processing, custom health checks, and CSV-based logging for accurate health tracking and analysis.",
+  link: "https://github.com/abishree123/pythonProject",
 },
 ];
 

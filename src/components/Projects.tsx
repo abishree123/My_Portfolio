@@ -10,20 +10,20 @@ const projectColors = [
 export default function Projects() {
   return (
     <section id="projects" className="py-24 bg-slate-900">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <p className="text-cyan-400 text-sm font-semibold uppercase tracking-widest mb-2">What I've Built</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white">Projects</h2>
           <div className="w-12 h-0.5 bg-cyan-400 mx-auto mt-4" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
           {projects.map((project, idx) => {
             const colors = projectColors[idx % projectColors.length];
             return (
               <div
                 key={idx}
-                className={`group bg-slate-800/50 border border-slate-700/60 rounded-2xl p-6 flex flex-col transition-all duration-300 ${colors.border} hover:-translate-y-1 hover:shadow-xl hover:shadow-black/30`}
+                className={`group h-full bg-slate-800/50 border border-slate-700/60 rounded-2xl p-6 flex flex-col transition-all duration-300 ${colors.border} hover:-translate-y-1 hover:shadow-xl hover:shadow-black/30`}
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${colors.icon} border flex items-center justify-center`}>
