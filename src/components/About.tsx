@@ -2,7 +2,7 @@ import { GraduationCap, Mail, Phone, MapPin } from "lucide-react";
 import { personalInfo } from "../data/portfolio";
 
 const stats = [
-  { label: "CGPA", value: "8.08" },
+  { label: "CGPA", value: "8.19" },
   { label: "Problems Solved", value: "1500+" },
   { label: "Projects Built", value: "3+" },
   { label: "Certifications", value: "5+" },

@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "abishree.r2024cse@sece.ac.in",
   college: "Sri Eshwar College of Engineering",
   tagline: "Passionate about building impactful software solutions",
-  resumeFile: "/ABI_SHREE_RESUME_24CS004_Updating.pdf.pdf",
+  resumeFile: "/ABI_SHREE_RESUME..pdf",
   photo: "/img/profile.jpeg",
 };
 
@@ -22,7 +22,7 @@ export const education = [
   {
     degree: "B.E Computer Science and Engineering",
     institution: "Sri Eshwar College of Engineering",
-    score: "CGPA: 8.08 (upto 3rd Sem)",
+    score: "CGPA: 8.19 (upto 4th Sem)",
     year: "2024 – 2028",
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
   link: "https://github.com/abishree123/Habit_Growth_Tracker_frontend"
 },
 {
-  title: "Smart Health Monitoring System",
+  title: "Health Monitoring System",
   subtitle: "Web Application",
   tech: ["Python", "Django", "SQLite", "HTML", "CSS"],
   description:
